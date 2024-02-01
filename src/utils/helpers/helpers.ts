@@ -1,12 +1,14 @@
 export const isIOSView = () => {
-    return typeof window !== "undefined" ?
-            [
-                "iPad Simulator",
-                "iPhone Simulator",
-                "iPad",
-                "iPhone"
-            ].includes(navigator.platform) ||
-            (navigator.userAgent.includes("Mac") && "ontouchend" in document)
-        :
-            false
+    return typeof window !== "undefined"
+    ? [
+        "iPad Simulator",
+        "iPhone Simulator",
+        "iPod Simulator",
+        "iPad",
+        "iPhone",
+        "iPod",
+      ].includes(navigator.platform) ||
+        // iPad on iOS 13 detection
+        (navigator.userAgent.includes("Mac") && "ontouchend" in document)
+    : false
 }

@@ -6,6 +6,8 @@ import Help from "./../../../assets/icons/interrogation.svg"
 import Trophy from "./../../../assets/icons/trophy.svg"
 import Luca from "./../../../assets/icons/luca.svg"
 import Fortuna from "./../../../assets/fortuna_logo.png"
+import Close from "./../../../assets/icons/close.svg"
+import Plus from "./../../../assets/icons/plus.svg"
 import Image, { StaticImageData } from "next/image"
 import styles from './ForIcon.module.scss'
 
@@ -16,8 +18,9 @@ const Icons: { [key in FortIconName]: StaticImageData} = {
     "help": Help,
     "trophy": Trophy,
     "luca": Luca,
-    "fortuna": Fortuna
-
+    "fortuna": Fortuna,
+    "close": Close,
+    "plus": Plus
 }
 
 interface IForIcon {

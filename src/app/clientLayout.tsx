@@ -15,14 +15,14 @@ export default function RootLayout({
     return (
     <QueryClientProvider client={queryClient}>
         <html>
-            {isIOS && (
+            {isIOS && 
                 <head>
                     <meta 
                         name="viewport"
                         content="width=device-width, initial-scale=1, maximum-scale=1"
                     />
                 </head>
-            )}
+            }
             <body>
                 <LayoutProvider>{children}</LayoutProvider>
             </body>

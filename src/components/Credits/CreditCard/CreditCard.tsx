@@ -47,7 +47,7 @@ const CreditCard = (credit: ICredit) => {
                     <tbody>
                         {
                             credit.payments.map( (payment, index) => 
-                                <tr>
+                                <tr key={index}>
                                     <td>
                                         {index+1}
                                     </td>

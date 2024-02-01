@@ -12,3 +12,10 @@ export interface IPreApproved {
 export interface IPreApprovedResponse {
     requests: IPreApproved[]
 }
+
+export interface IMessageRequest {
+    destinationNumber: string
+    firstName: string
+    lastName: string
+    source: string
+}

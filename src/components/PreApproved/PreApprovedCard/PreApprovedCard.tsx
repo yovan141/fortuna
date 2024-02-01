@@ -38,11 +38,11 @@ const PreApprovedCard = (props: IPreApprovedCard) => {
                     </span>
                 </div>
             </div>
-            <div className={`${styles.moreInformation} ${active ? styles.active : ""}`}>
+            {request.reason && <div className={`${styles.moreInformation} ${active ? styles.active : ""}`}>
                 {request.reason !== "" && <span className={styles.reason}>
                     Motivo: {request.reason}
                 </span>}
-            </div>
+            </div>}
         </button>
     )
 }

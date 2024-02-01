@@ -8,6 +8,8 @@ export type FortIconName =
     | "trophy"
     | "luca"
     | "fortuna"
+    | "close"
+    | "plus"
 
 
 export interface MenuItem {

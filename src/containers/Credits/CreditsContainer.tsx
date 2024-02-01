@@ -16,7 +16,7 @@ const CreditsContainer = () => {
     useEffect(() => {
         getCreditsMutate()
     }, [getCreditsMutate])
-    return isPWAView ? <PWACreditsView credits={data?.data.clients}/> : <></>
+    return isPWAView ? <PWACreditsView credits={data?.data.clients} isLoading={isLoading}/> : <></>
 }
 
 export default CreditsContainer

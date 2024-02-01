@@ -6,15 +6,21 @@
     background-color: purple;
     padding: 28px;
 
+    
     >.loginFormContainer {
         padding: 40px;
         background-color: white;
         border-radius: 8px;
-
-        >img {
-            width: 250px;
-            height: 50px;
-            margin-bottom: 28px;
+        
+        >.logo {
+            display: flex;
+            flex-direction: row;
+            column-gap: 10px;
+            align-items: center;
+            >h1 {
+                font-family: sans-serif;
+                color: rgb(24, 224, 157);
+            }
         }
     }
 }

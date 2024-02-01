@@ -3,15 +3,33 @@
     height: 50px;
     border-radius: 8px;
     border: none;
-    font-size: 16px;
+    font-size: 20px;
+    position: relative;
 
     &.primary {
-        background-color: plum;
+        background-color: purple;
         color: white;
 
         &:hover {
-            background-color: purple;
+            background-color: plum;
             cursor: pointer;
+        }
+    }
+
+    >div {
+        position: absolute;
+        width: 35px;
+        left: 10px;
+        bottom: 7px;
+    }
+
+    >span {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        >img {
+            margin-right: 10px;
         }
     }
 }

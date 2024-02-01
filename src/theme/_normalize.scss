@@ -12,3 +12,23 @@ body {
     padding: 0;
     overflow: hidden;
 }
+
+body {
+margin: 0;
+height: inherit;
+width: inherit;
+}
+
+
+#__next {
+height: inherit;
+width: inherit;
+}
+
+a {
+color: inherit;
+}
+
+input[type="text"] {
+    font-size: inherit;
+  }

@@ -7,6 +7,7 @@
         padding: 10px;
         border: 1px solid gainsboro;
         border-radius: 8px;
+        font-family: sans-serif;
     }
 
     input:active + label, input:focus + label {
@@ -15,6 +16,7 @@
 
     >label {
         font-size: 12px;
+        font-family: sans-serif;
         position: absolute;
         top: -8px;
         left: 10px;

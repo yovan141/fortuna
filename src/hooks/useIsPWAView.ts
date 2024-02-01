@@ -5,11 +5,11 @@ export default function useIsPWAView() {
     const { width } = useWindowDimensions()
     const isMobile = useMemo(() => width < 768, [width])
     const isPWAView = useMemo(() => {
-        return (
+        return window !== undefined ? (
             window.matchMedia("(display-mode: standalone)").matches || 
             //@ts-ignore
             window.navigator.standalone
-        ) || isMobile
+        ) : isMobile
     }, [isMobile])
 
     return isPWAView

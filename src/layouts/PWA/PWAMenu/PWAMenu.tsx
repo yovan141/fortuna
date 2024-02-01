@@ -43,7 +43,7 @@ const PWAMenu = () => {
 
     const handleMenuItem = useCallback((route: ROUTES) => {
         router.push(route)
-    }, [])
+    }, [router])
 
     return (
         <div className={styles.pwaMenuContainer}>
