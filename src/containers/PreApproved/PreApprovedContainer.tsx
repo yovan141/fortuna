@@ -4,6 +4,7 @@ import preapproved from "./../../utils/mocks/preapproved.json"
 import { getPreApproved, sendInvitation } from "@/utils/requests/preapproved.requests"
 import { useMutation } from "react-query"
 import { useEffect, useCallback, useState } from "react"
+import Toast from "@/utils/helpers/ToastProvider"
 
 const PreApprovedContainer = () => {
     const isPWAView = useIsPWAView()
@@ -20,7 +21,11 @@ const PreApprovedContainer = () => {
         sendInvitation,
         {
             onSuccess() {
-
+                setShow(false)
+                Toast.show({
+                    title: "Se envio correctamente la invitacion",
+                    preset: "success"
+                })
             }
         }
     )
@@ -40,7 +45,7 @@ const PreApprovedContainer = () => {
     }, [getPreApprovedMutate])
 
     return isPWAView ?
-        <PWAPreApprovedView {...data?.data} onSubmit={onSubmit} show={show} setShow={setShow}/>
+        <PWAPreApprovedView {...data?.data} onSubmit={onSubmit} show={show} setShow={setShow} sendInvitationLoading={sendInvitationLoading} isLoading={isLoading}/>
         : 
         <></>
 }

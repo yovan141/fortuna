@@ -1,7 +1,7 @@
 {
     "clients": [
         {
-            "name": "Misael Gamboa",
+            "name": "Maria Sanchez",
             "creditId": "CRED-0001",
             "term": 14,
             "currentTerm": 10,
@@ -79,7 +79,7 @@
             ]
         },
         {
-            "name": "Marlene",
+            "name": "Jaqueline Mendez",
             "creditId": "CRED-0002",
             "term": 14,
             "currentTerm": 5,
@@ -89,7 +89,7 @@
             "cv": 5
         },
         {
-            "name": "Raul Bartolo",
+            "name": "Yuliana Hernandez",
             "creditId": "CRED-0002",
             "term": 14,
             "currentTerm": 5,
@@ -99,7 +99,7 @@
             "cv": 8
         },
         {
-            "name": "Saul",
+            "name": "Mariela Rodriguez",
             "creditId": "CRED-0004",
             "term": 14,
             "currentTerm": 10,
@@ -109,7 +109,7 @@
             "cv": 0
         },
         {
-            "name": "Leonardo",
+            "name": "Briseida Vazquez",
             "creditId": "CRED-0005",
             "term": 14,
             "currentTerm": 5,
@@ -119,7 +119,7 @@
             "cv": 5
         },
         {
-            "name": "Yovan",
+            "name": "Monserrat Martinez",
             "creditId": "CRED-0006",
             "term": 14,
             "currentTerm": 5,

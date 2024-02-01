@@ -3,7 +3,7 @@ import { ROUTES } from "./route.enum";
 export enum WithMainLayout {
     credits = ROUTES.credits,
     preAuthorization = ROUTES.preapproved,
-    renovations = ROUTES.renovations,
+    rewards = ROUTES.rewards,
     payments = ROUTES.payments,
     help = ROUTES.help,
 }

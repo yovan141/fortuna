@@ -19,16 +19,16 @@ const PWAMenuItems: MenuItem[] = [
         route: ROUTES.preapproved
     },
     {
-        title: "Renovaciones",
+        title: "Pagos",
         enabled: true,
         icon: "renewal",
-        route: ROUTES.renovations
+        route: ROUTES.payments
     },
     {
         title: "Superate",
         enabled: true,
         icon: "trophy",
-        route: ROUTES.renovations
+        route: ROUTES.rewards
     },
     {
         title: "TuBienestar",

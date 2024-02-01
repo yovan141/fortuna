@@ -8,10 +8,11 @@ const ForTextInputH = withForTextInput(ForTextInput)
 
 interface IInviteClienForm {
     onSubmit: (v: any) => void
+    isLoading: boolean
 }
 
 const InviteClientForm = (props: IInviteClienForm) => {
-    const {onSubmit} = props
+    const {onSubmit, isLoading} = props
     const methods = useForm({
         mode: "onChange"
     })
@@ -24,7 +25,7 @@ const InviteClientForm = (props: IInviteClienForm) => {
                     <ForTextInputH type="text" name="name" label="Nombre" id="name" placeholder="Nombre" control={control}/>
                     <ForTextInputH type="text" name="phone" label="Telefono" id="phone" placeholder="Telefono" control={control}/>
                 </div>
-                <ForButton type="submit" label="Enviar" preset="primary"/>
+                <ForButton type="submit" label="Enviar" preset="primary" isLoading={isLoading}/>
             </form>
         </FormProvider>
     )

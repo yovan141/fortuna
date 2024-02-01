@@ -8,7 +8,7 @@ const LoginContainer = () => {
     const router = useRouter()
 
     const onSubmit = useCallback(() => {
-        router.push(ROUTES.credits)
+        router.push(ROUTES.preapproved)
     }, [])
     return <PWALoginView onSubmit={onSubmit}/>
 }

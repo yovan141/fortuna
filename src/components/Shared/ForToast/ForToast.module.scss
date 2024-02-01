@@ -1,0 +1,39 @@
+.container {
+    background-color: white;
+    border-radius: 8px;
+    padding: 4px 8px;
+    max-width: 250px;
+    display: flex;
+    > p {
+      font-family: sans-serif;
+      font-size: 14px;
+      line-height: 20px;
+    }
+    > button {
+      font-family: sans-serif;
+      font-size: 9px;
+      line-height: 16px;
+      color: black;
+      padding: 0 8px;
+      border: 0;
+      margin-left: 10px;
+      border-radius: 8px;
+      background-color: rgb(123, 231, 123);
+    }
+    &.error {
+      border: 2px solid red;
+      background-color: rgb(255, 230, 230);
+    }
+    &.success {
+      border: 2px solid green;
+      background-color: rgb(223, 252, 223);
+    }
+    &.warning {
+      border: 2px solid orange;
+      background-color: rgb(255, 244, 222);
+    }
+    &.info {
+      background-color: gainsboro;
+      color: white;
+    }
+  }

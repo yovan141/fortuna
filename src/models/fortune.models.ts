@@ -18,3 +18,5 @@ export interface MenuItem {
     enabled: boolean
     route: ROUTES
 }
+
+export type ForToastPreset = "error" | "success" | "warning" | "info"

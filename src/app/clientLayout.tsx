@@ -3,6 +3,7 @@ import LayoutProvider from "@/hocs/LayoutProvider"
 import useIsIOS from "@/hooks/useIsIOS"
 import "../theme/_global.scss"
 import { QueryClient, QueryClientProvider } from "react-query"
+import { Toaster } from "react-hot-toast"
 
 const queryClient = new QueryClient()
 
@@ -24,6 +25,7 @@ export default function RootLayout({
                 </head>
             }
             <body>
+                <Toaster />
                 <LayoutProvider>{children}</LayoutProvider>
             </body>
         </html>
