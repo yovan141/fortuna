@@ -1,0 +1,50 @@
+.pwaMainLayoutContainer {
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+
+    >.header {
+        width: 100vw;
+        height: 80px;
+        padding: 10px 20px;
+        background: purple;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        >.logo {
+            display: flex;
+            align-items: center;
+
+            >img {
+                width: 60px;
+                height: 60px;
+            }
+
+            >.title {
+                margin: 0;
+                margin-left: 10px;
+                font-size: 28px;
+                color: #ffffff;
+                font-family: sans-serif;
+            }
+        }
+
+        >button {
+            width: 60px;
+            height: 60px;
+            font-size: 28px;
+            font-weight: 550;
+            padding: 5px;
+            border-radius: 30px;
+        }
+    }
+
+    >main {
+        width: 100vw;
+        height: calc(100vh - 180px);
+        position: relative;
+    }
+}

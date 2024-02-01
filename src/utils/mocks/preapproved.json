@@ -1,0 +1,64 @@
+{
+    "requests": [
+        {
+            "name": "Misael Gamboa",
+            "term": 14,
+            "brand": "CVM",
+            "amount": 3000.00,
+            "paymentAmmount": 300.00,
+            "status": "Pre aprobada",
+            "statusCode": 1,
+            "reason": ""
+        },
+        {
+            "name": "Marlene",
+            "term": 14,
+            "brand": "CVM",
+            "amount": 3000.00,
+            "paymentAmmount": 300.00,
+            "status": "Pre aprobada",
+            "statusCode": 1,
+            "reason": ""
+        },
+        {
+            "name": "Raul Bartolo",
+            "term": 14,
+            "brand": "CVM",
+            "amount": 3000.00,
+            "paymentAmmount": 300.00,
+            "status": "Rechazado",
+            "statusCode": 3,
+            "reason": "No cumplio con su documentacion"
+        },
+        {
+            "name": "Saul",
+            "term": 14,
+            "brand": "CVM",
+            "amount": 3000.00,
+            "paymentAmmount": 300.00,
+            "status": "Pre aprobada",
+            "statusCode": 1,
+            "reason": ""
+        },
+        {
+            "name": "Leonardo",
+            "term": 14,
+            "brand": "CVM",
+            "amount": 3000.00,
+            "paymentAmmount": 300.00,
+            "status": "Pre aprobada",
+            "statusCode": 1,
+            "reason": ""
+        },
+        {
+            "name": "Yovan",
+            "term": 14,
+            "brand": "CVM",
+            "amount": 3000.00,
+            "paymentAmmount": 300.00,
+            "status": "Rechazada",
+            "statusCode": 3,
+            "reason": "No pudo comprobar ingresos"
+        }
+    ]
+}

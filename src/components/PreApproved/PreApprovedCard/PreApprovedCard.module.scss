@@ -1,0 +1,76 @@
+.preApprovedCardContainer {
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    row-gap: 20px;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px 0px 0px 8px;
+    box-shadow: 0px 3px 5px 0px black;
+    border: none;
+
+    &.preapproved {
+        border-right: 5px solid grey;
+    }
+
+    &.rejected {
+        border-right: 5px solid red;
+    }
+
+    >.infoContainer {
+        display: flex;
+        column-gap: 20px;
+        align-items: center;
+        >.avatar {
+            width: 90px;
+            height: 90px;
+            background-color: gainsboro;
+            border-radius: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            >span {
+                font-size: 30px;
+                font-family: sans-serif;
+                font-weight: 500;
+                color: black;
+            }
+        }
+    
+        >.info {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            flex: 1;
+            font-size: 16px;
+            font-family: sans-serif;
+            font-weight: 600;
+            color: black;
+            column-gap: 20px;
+    
+            >span {
+                text-align: left;
+            }
+    
+            >.name, >.status, >.reason {
+                grid-column: 1 / 3;
+            }
+        }
+    }
+
+    >.moreInformation {
+        width: 100%;
+        font-family: sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        color: black;
+        display: none;
+        border-top: 2px solid gainsboro;
+        padding-top: 20px;
+
+        &.active {
+            display: block;
+        }
+
+    }
+}

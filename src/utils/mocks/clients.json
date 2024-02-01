@@ -1,0 +1,132 @@
+{
+    "clients": [
+        {
+            "name": "Misael Gamboa",
+            "creditId": "CRED-0001",
+            "term": 14,
+            "currentTerm": 10,
+            "brand": "CVM",
+            "amount": 3000.00,
+            "paymentAmmount": 300.00,
+            "cv": 0,
+            "payments": [
+                {
+                    "amount": 300.00,
+                    "status": "Completado",
+                    "statusCode": 2,
+                    "date": "23/11/2023"
+                },
+                {
+                    "amount": 300.00,
+                    "status": "Completado",
+                    "statusCode": 2,
+                    "date": "30/11/2023"
+                },
+                {
+                    "amount": 300.00,
+                    "status": "Completado",
+                    "statusCode": 2,
+                    "date": "07/12/2023"
+                },
+                {
+                    "amount": 300.00,
+                    "status": "Completado",
+                    "statusCode": 2,
+                    "date": "14/12/2023"
+                },
+                {
+                    "amount": 300.00,
+                    "status": "Completado",
+                    "statusCode": 2,
+                    "date": "21/12/2023"
+                },
+                {
+                    "amount": 300.00,
+                    "status": "Completado",
+                    "statusCode": 2,
+                    "date": "28/12/2023"
+                },
+                {
+                    "amount": 300.00,
+                    "status": "Completado",
+                    "statusCode": 2,
+                    "date": "04/01/2024"
+                },
+                {
+                    "amount": 300.00,
+                    "status": "Completado",
+                    "statusCode": 2,
+                    "date": "11/01/2024"
+                },
+                {
+                    "amount": 300.00,
+                    "status": "Completado",
+                    "statusCode": 2,
+                    "date": "18/01/2024"
+                },
+                {
+                    "amount": 300.00,
+                    "status": "Completado",
+                    "statusCode": 2,
+                    "date": "25/01/2024"
+                },
+                {
+                    "amount": 300.00,
+                    "status": "Pendiente",
+                    "statusCode": 1,
+                    "date": "01/02/2024"
+                }
+            ]
+        },
+        {
+            "name": "Marlene",
+            "creditId": "CRED-0002",
+            "term": 14,
+            "currentTerm": 5,
+            "brand": "CVM",
+            "amount": 3000.00,
+            "paymentAmmount": 300.00,
+            "cv": 5
+        },
+        {
+            "name": "Raul Bartolo",
+            "creditId": "CRED-0002",
+            "term": 14,
+            "currentTerm": 5,
+            "brand": "CVM",
+            "amount": 3000.00,
+            "paymentAmmount": 300.00,
+            "cv": 8
+        },
+        {
+            "name": "Saul",
+            "creditId": "CRED-0004",
+            "term": 14,
+            "currentTerm": 10,
+            "brand": "CVM",
+            "amount": 3000.00,
+            "paymentAmmount": 300.00,
+            "cv": 0
+        },
+        {
+            "name": "Leonardo",
+            "creditId": "CRED-0005",
+            "term": 14,
+            "currentTerm": 5,
+            "brand": "CVM",
+            "amount": 3000.00,
+            "paymentAmmount": 300.00,
+            "cv": 5
+        },
+        {
+            "name": "Yovan",
+            "creditId": "CRED-0006",
+            "term": 14,
+            "currentTerm": 5,
+            "brand": "CVM",
+            "amount": 3000.00,
+            "paymentAmmount": 300.00,
+            "cv": 8
+        }
+    ]
+}

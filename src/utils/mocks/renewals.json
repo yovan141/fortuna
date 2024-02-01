@@ -1,0 +1,46 @@
+{
+    "renewals": [
+        {
+            "name": "Misael Gamboa",
+            "term": 14,
+            "brand": "CVM",
+            "amount": 3000.00,
+            "paymentAmmount": 300.00
+        },
+        {
+            "name": "Marlene",
+            "term": 14,
+            "brand": "CVM",
+            "amount": 3000.00,
+            "paymentAmmount": 300.00
+        },
+        {
+            "name": "Raul Bartolo",
+            "term": 14,
+            "brand": "CVM",
+            "amount": 3000.00,
+            "paymentAmmount": 300.00
+        },
+        {
+            "name": "Saul",
+            "term": 14,
+            "brand": "CVM",
+            "amount": 3000.00,
+            "paymentAmmount": 300.00
+        },
+        {
+            "name": "Leonardo",
+            "term": 14,
+            "brand": "CVM",
+            "amount": 3000.00,
+            "paymentAmmount": 300.00
+        },
+        {
+            "name": "Yovan",
+            "term": 14,
+            "brand": "CVM",
+            "amount": 3000.00,
+            "paymentAmmount": 300.00
+        }
+    ]
+}

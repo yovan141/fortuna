@@ -1,0 +1,20 @@
+.pwaLoginView {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-content: center;
+    background-color: purple;
+    padding: 28px;
+
+    >.loginFormContainer {
+        padding: 40px;
+        background-color: white;
+        border-radius: 8px;
+
+        >img {
+            width: 250px;
+            height: 50px;
+            margin-bottom: 28px;
+        }
+    }
+}

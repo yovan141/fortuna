@@ -1,0 +1,17 @@
+.pwaMenuContainer {
+    width: 100vw;
+    height: 100px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+
+    >button {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: purple;
+        row-gap: 10px;
+        border: none;
+        color: white;
+    }
+}
